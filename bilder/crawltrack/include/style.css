@@ -1,0 +1,454 @@
+//----------------------------------------------------------------------
+//  CrawlTrack 1.3.0
+//----------------------------------------------------------------------
+// Crawler Tracker for website
+//----------------------------------------------------------------------
+// Author: Jean-Denis Brun
+//----------------------------------------------------------------------
+// Website: www.crawltrack.info
+//----------------------------------------------------------------------
+// That script is distributed under GNU GPL license
+//----------------------------------------------------------------------
+// file: style.css
+//----------------------------------------------------------------------
+// CSS base on a css example on www.alsacreations.com
+//----------------------------------------------------------------------
+
+
+body {
+  margin:1em;
+
+   }
+   
+   
+a:link, a:visited {
+  color: #003399;
+  text-decoration: underline;
+}
+
+a:hover{
+  color: #FF0000;
+  text-decoration: underline;
+}
+
+
+
+h1 {
+  font-size: 20px;
+  font-weight: bold;
+  color: #003399;
+   font-family: Verdana,Geneva, Arial, Helvetica, Sans-Serif;
+  text-align:center; 
+}
+
+h2 {
+  font-size: 14px;
+  color: #003399;
+   font-family: Verdana,Geneva, Arial, Helvetica, Sans-Serif;
+  text-align:center; 
+}
+
+h3 {
+  font-size: 10px;
+  color: #003399;
+   font-family: Verdana,Geneva, Arial, Helvetica, Sans-Serif;
+}
+
+h4 {
+  font-size: 14px;
+  color: #ADD8E6;
+   font-family: Verdana,Geneva, Arial, Helvetica, Sans-Serif;
+  text-align:left; 
+}
+
+h5 {
+  font-size: 14px;
+  color: #003399;
+   font-family: Verdana,Geneva, Arial, Helvetica, Sans-Serif;
+  text-align:left; 
+}
+
+h6 {
+  font-size: 11px;
+  color: #003399;
+   font-family: Verdana,Geneva, Arial, Helvetica, Sans-Serif;
+  text-align:left; 
+}
+
+
+.main {
+position: relative;
+  align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width:744px;
+  border: 2px solid #003399 ;
+  background-color:#FFFFFF;
+  }
+
+.header {
+  font-family: Verdana,Geneva, Arial, Helvetica, Sans-Serif;
+  font-size: 13px;  
+  color: #003399;
+  text-align: center;
+  width:744px;
+  }
+
+
+
+.content {
+position: relative;
+  font-family: Verdana,Geneva, Arial, Helvetica, Sans-Serif;
+  font-size: 16px;  
+  color: #003399;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width:720px;
+  }
+  
+.footer {
+  font-family: Verdana,Geneva, Arial, Helvetica, Sans-Serif;
+  text-align: center;
+  width:744px;
+  border-top: 2px solid #003399 ;
+  background-image: url('../images/fond.jpg');
+  }  
+
+
+.form {
+  font-family: Verdana,Geneva, Arial, Helvetica, Sans-Serif;
+  font-size: 15px;  
+  color: #003399;
+  text-align: right;
+   width:600px; 
+  margin-left: auto;
+  margin-right: auto;
+  } 
+
+.form2 {
+  font-family: Verdana,Geneva, Arial, Helvetica, Sans-Serif;
+  font-size: 15px;  
+  color: #003399;
+  text-align: right;
+   width:300px; 
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid #003399 ;
+  } 
+
+.form3 {
+  font-family: Verdana,Geneva, Arial, Helvetica, Sans-Serif;
+  font-size: 15px;  
+  color: #003399;
+  text-align: left;
+   width:400px; 
+  margin-left: 150px;
+  margin-right: auto;
+  } 
+
+.button4 {
+  text-align: center;
+  vertical-align: baseline;
+  font-size: 14px; 
+  width:150px; 
+  height:20px; 
+  color: #003399;
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  }
+
+.button45 {
+  text-align: center;
+  vertical-align: baseline;
+  font-size: 9px; 
+  height:20px; 
+  color: #003399;
+  background-color: #FFFFFF;
+  border: 1px solid #FFFFFF;
+  }
+
+
+.order {
+  font-family: Verdana,Geneva, Arial, Helvetica, Sans-Serif;
+  text-align: center;
+  font-size: 14px;
+  font-weight:bold;  
+  color: #003399;
+  background-color: #00BFFF;
+  border: 1px solid #00BFFF;
+  }
+
+.orderselect {
+  font-family: Verdana,Geneva, Arial, Helvetica, Sans-Serif;
+  text-align: center;
+  font-size: 14px;
+  font-weight:bold;
+  font-style: italic ;  
+  color: #003399;
+  background-color: #00BFFF;
+  border: 1px solid #00BFFF;
+  }
+
+
+.tableau {
+  font-family: Verdana,Geneva, Arial, Helvetica, Sans-Serif;
+  font-size: 14px;  
+  color: #003399;
+  margin-left: auto;
+  margin-right: auto;
+  width:700px;
+  }
+
+
+.tableau1 {
+  font-family: Verdana,Geneva, Arial, Helvetica, Sans-Serif;
+  font-size: 14px;
+  font-weight:bold;
+  color: #003399;
+  text-align: center;
+  border-top: 2px solid #003399;
+  border-bottom: 2px solid #003399;
+  border-left: 2px solid #003399;
+  background-color: #00BFFF;
+  }
+
+.tableau2 {
+  font-family: Verdana,Geneva, Arial, Helvetica, Sans-Serif;
+  font-size: 14px;
+  font-weight:bold;  
+  color: #003399;
+  text-align: center;
+  border: 2px solid #003399;
+  background-color: #00BFFF;
+  }
+
+.tableau3 {
+  font-family: Verdana,Geneva, Arial, Helvetica, Sans-Serif;
+  font-size: 12px;
+  font-weight:bold;
+  height:25px;  
+  color: #003399;
+  text-align: center;
+  border-bottom: 2px solid #003399;
+  border-left: 2px solid #003399;
+  background-color: #FFFFFF;
+  }
+
+.tableau32 {
+  font-family: Verdana,Geneva, Arial, Helvetica, Sans-Serif;
+  font-size: 9px;
+  font-weight:bold;
+
+  height:25px;  
+  color: #003399;
+  text-align: center;
+  border-bottom: 2px solid #003399;
+  border-left: 2px solid #003399;
+  background-color: #FFFFFF;
+  }
+
+.tableau35 {
+  font-family: Verdana,Geneva, Arial, Helvetica, Sans-Serif;
+  font-size: 9px;
+  font-weight:bold;
+
+  height:25px;  
+  color: #003399;
+  text-align: center;
+  border-bottom: 2px solid #003399;
+  border-left: 2px solid #003399;
+  background-color: #FFFFFF;
+  }
+
+.tableau30 {
+  font-family: Verdana,Geneva, Arial, Helvetica, Sans-Serif;
+  font-size: 12px;
+  font-weight:bold;
+  height:25px;   
+  color: #003399;
+  text-align: center;
+  border-bottom: 2px solid #003399;
+  border-left: 2px solid #003399;
+  background-color: #E6E6FA;
+  }
+
+
+
+.tableau4 {
+  font-family: Verdana,Geneva, Arial, Helvetica, Sans-Serif;
+  font-size: 9px;
+  color: #003399;
+  text-align: left;
+  border-bottom: 2px solid #003399;
+  border-right: 2px solid #003399;
+  border-left: 2px solid #003399;
+  background-color: #FFFFFF;
+  }
+
+.tableau45 {
+  font-family: Verdana,Geneva, Arial, Helvetica, Sans-Serif;
+  font-size: 8px;
+  color: #003399;
+  text-align: left;
+  border-bottom: 2px solid #003399;
+  border-right: 2px solid #003399;
+  border-left: 2px solid #003399;
+  background-color: #FFFFFF;
+  }
+
+
+
+.tableau5 {
+  font-family: Verdana,Geneva, Arial, Helvetica, Sans-Serif;
+  font-size: 12px;
+  font-weight:bold;
+  height:25px;  
+  color: #003399;
+  text-align: center;
+  border-bottom: 2px solid #003399;
+  border-right: 2px solid #003399;
+  border-left: 2px solid #003399;
+  background-color: #FFFFFF;
+  }
+
+.tableau50 {
+  font-family: Verdana,Geneva, Arial, Helvetica, Sans-Serif;
+  font-size: 12px;
+  font-weight:bold;
+  height:25px;   
+  color: #003399;
+  text-align: center;
+  border-bottom: 2px solid #003399;
+  border-right: 2px solid #003399;
+  border-left: 2px solid #003399;
+  background-color: #E6E6FA;
+  }
+
+
+
+/* CSS issu des tutoriels css.alsacreations.com */
+
+
+.menumain {
+position: relative;
+width: 744px;
+  align: center;
+  margin-left: auto;
+  margin-right: auto;
+ 
+  }
+
+dl, dt, dd, ul, li {
+margin: 0;
+padding: 0;
+list-style-type: none;
+}
+
+
+.menusite {
+position: absolute;
+top: 63px;
+left: 300px;
+  width:444px;
+  height:30px;
+  text-align:right;
+ text-valign:middle;
+  margin:0;
+  padding:0;
+  } 
+
+
+.nojava {
+border: 1px solid gray;
+}
+
+#menug {
+position: absolute;
+top: 0;
+left: 0;
+width: 552px;
+z-index:100;
+
+}
+#menug dl {
+float: left;
+width: 138px;
+}
+#menug dt {
+font-family: Verdana,Geneva, Arial, Helvetica, Sans-Serif;
+font-size: 14px;
+font-weight: bold;
+cursor: pointer;
+text-align: center;
+background: #ccc;
+border: 1px solid gray;
+margin: 1px;
+color: #003399;
+}
+#menug dd {
+display: none;
+border: 1px solid gray;
+}
+
+
+#menug li {
+text-align: center;
+background: #fff;
+font-family: Verdana,Geneva, Arial, Helvetica, Sans-Serif;
+font-size: 14px;
+}
+#menug li a, #menug dt a {
+text-decoration: none;
+display: block;
+height: 100%;
+border: 0 none;
+color: #003399;
+}
+#menug li a:hover, #menug dt a:hover {
+background: #eee;
+}
+
+#menud {
+position: absolute;
+top: 0;
+left: 552px;
+width: 192px;
+z-index:100;
+}
+#menud dl {
+float: left;
+width: 64px;
+}
+#menud dt{
+font-family: Verdana,Geneva, Arial, Helvetica, Sans-Serif;
+font-size: 14px;
+font-weight: bold;
+cursor: pointer;
+text-align: center;
+background: #ccc;
+border: 1px solid gray;
+margin: 1px;
+color: #003399;
+}
+#menud dd {
+display: none;
+border: 1px solid gray;
+}
+#menud li {
+text-align: center;
+background: #fff;
+font-family: Verdana,Geneva, Arial, Helvetica, Sans-Serif;
+font-size: 14px;
+}
+#menud li a, #menud dt a {
+text-decoration: none;
+display: block;
+height: 100%;
+border: 0 none;
+color: #003399;
+}
+#menud li a:hover, #menud dt a:hover {
+background: #eee;
+}
+

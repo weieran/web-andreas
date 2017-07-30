@@ -1,0 +1,111 @@
+body {
+    color: black; background-color: white;
+    font-size: 100.01%;
+    font-family: Helvetica,Arial,sans-serif;
+    margin: 0; padding: 1em;
+  }
+
+  div#oben{
+    font-size: 1.5em;
+    margin: 0 0 0.7em; padding: 0.3em;
+    text-align: center;
+    border: 2px ridge silver;
+	background: #fff0e3 url(bilder/andreas_spitz.png) no-repeat 100% 50%;/* Position der Oberer linker Ecke*/
+  }
+  html>body h1 {
+    border-color: gray;   /*Farbangleichung an den Internet Explorer  */
+  }
+
+  div#Navigation {
+    position: absolute;
+    top: 13em; left: 2em;
+    font-size: 0.83em;
+	width: 12em;
+    background-color: white;
+    border: 1px solid silver;
+    /*float: left; width: 12em;
+    margin: 0 0 1.2em; padding: 0;
+    border: 1px dashed silver;*/
+  }
+ 
+  div#Navigation ul {
+    list-style: none;
+    margin: 0; padding: 0.5em;
+  }
+  
+  div#Navigation a {
+    display: block;
+    padding: 0.2em;
+    font-weight: bold;
+  }
+  html>body #Navigation {   /*nur fuer moderne Browser! */		
+    position: fixed;}
+  div#Navigation a:link {
+    color: black; background-color: #eee;
+  }
+  div#Navigation a:visited {
+    color: #666; background-color: #eee;
+  }
+  div#Navigation a:hover {
+    color: black; background-color: white;
+  }
+  div#Navigation a:active {
+    color: white; background-color: gray;
+  }
+
+  div#Info {
+    font-size: 0.9em;
+    float: right; width: 8em;
+    margin: 0 0 1.1em; padding: 0;
+    background-color: #eee; border: 1px dashed silver;
+  }
+  div#Info h2 {
+    font-size: 1.33em;
+    margin: 0.2em 0.5em;
+  }
+  div#Info p {
+    font-size: 1em;
+    margin: 0.5em;
+  }
+  
+  div#subTitle {
+    margin: 0 9em 1em 12em; 
+    padding: 0 1em;
+    border: 1px dashed silver;
+  }
+  
+    div#subTitle h2 {
+    font-size: 1.33em;
+    margin: 0.2em 0.5em;
+  }
+
+  div#Inhalt {
+    margin: 0em 9em 1em 12em;
+    padding: 0.5em 1em;
+    border: 1px dashed silver;
+	min-height:17em;
+  }
+  * html div#Inhalt {
+    height: 1em;  /* Workaround gegen den 3-Pixel-Bug des Internet Explorers */
+  }
+  div#Inhalt h2 {
+    font-size: 1.2em;
+    margin: 0.2em 0;
+  }
+  div#Inhalt p {
+    font-size: 1em;
+    margin: 1em 0;
+  }
+  div#Message{
+  border: 1px solid black;
+  background-color:#FFFF99;
+  }
+
+  div#unten {
+    clear: both;
+    font-size: 0.9em;
+    margin:2em 0 0 0;
+	padding: 0.1em;
+    text-align: center;
+    background-color: #fed; border: 1px solid silver;
+  }
